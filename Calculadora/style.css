@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    grid-auto-rows: 100px;
+    grid-template-areas: 
+    "texto texto texto texto"
+    "borrar borrar divi mult"
+    "siete ocho nueve resta"
+    "cuatro cinco seis suma"
+    "uno dos tres igual"
+    "cero cero punto igual";
+}
+
+div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.texto {
+    grid-area: texto;
+    font-family: Verdana;
+    font-size: 4em;
+    color: white;
+}
+
+.borrar {
+    grid-area: borrar;
+}
+
+.divi {
+    grid-area: divi;
+}
+
+.mult {
+    grid-area: mult;
+}
+
+.siete {
+    grid-area: siete;
+}
+
+.ocho {
+    grid-area: ocho;
+}
+
+.nueve {
+    grid-area: nueve;
+}
+
+.resta {
+    grid-area: resta;
+}
+
+.cuatro {
+    grid-area: cuatro;
+}
+
+.cinco {
+    grid-area: cinco;
+}
+
+.seis {
+    grid-area: seis;
+}
+
+.suma {
+    grid-area: suma;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.dos {
+    grid-area: dos;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.igual {
+    grid-area: igual;
+}
+
+.cero {
+    grid-area: cero;
+}
+
+.punto {
+    grid-area: punto;
+}
+
+button {
+    font-family: Verdana;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 500px;
+    background-color: rgb(70, 70, 70);
+}
+
+.c {
+    color: black;
+    background-color: rgb(189, 189, 189);
+}
+
+.operacion {
+    background-color: rgb(255, 166, 0);
+}
+
+#texto {
+    overflow: auto;
+    text-align: right;
+}

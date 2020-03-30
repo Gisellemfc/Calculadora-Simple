@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALCULADORA PRO</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+    <div class="grid">
+        <div class="texto"><p id="texto"></p></div>
+        <div class="borrar"><button class="c" onclick="borrar(true)">C</button></div>
+        <div class="divi"><button class="operacion" onclick="escribirSigno('/')">÷</button></div>
+        <div class="mult"><button class="operacion" onclick="escribirSigno('*')">×</button></div>
+        <div class="siete"><button onclick="agregarNumero(7)">7</button></div>
+        <div class="ocho"><button onclick="agregarNumero(8)">8</button></div>
+        <div class="nueve"><button onclick="agregarNumero(9)">9</button></div>
+        <div class="resta"><button class="operacion" onclick="escribirSigno('-')">─</button></div>
+        <div class="cuatro"><button onclick="agregarNumero(4)">4</button></div>
+        <div class="cinco"><button onclick="agregarNumero(5)">5</button></div>
+        <div class="seis"><button onclick="agregarNumero(6)">6</button></div>
+        <div class="suma"><button class="operacion" onclick="escribirSigno('+')">+</button></div>
+        <div class="uno"><button onclick="agregarNumero(1)">1</button></div>
+        <div class="dos"><button onclick="agregarNumero(2)">2</button></div>
+        <div class="tres"><button onclick="agregarNumero(3)">3</button></div>
+        <div class="igual"><button class="operacion" onclick="escribirSigno('=')">=</button></div>
+        <div class="cero"><button onclick="agregarNumero(0)">0</button></div>
+        <div class="punto"><button onclick="agregarNumero('.')">.</button></div>
+        
+    </div>
+    
+</body>
+</html>
